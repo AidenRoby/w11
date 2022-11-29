@@ -1,0 +1,71 @@
+.navbar-center{
+    position: relative;
+    padding: 5px;
+}
+
+.nav-bgcolor{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-menu a{
+    color: rgb(0, 0, 0);
+}
+
+.jumbo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    bottom: 10px;
+}
+
+.card-images{
+    height: 250px;
+    object-fit: cover;
+}
+
+.jumbo-container{
+    width: 100%;
+    height: 80vh;
+}
+
+.card-deck{
+    width: 100%;
+    position: realtive;
+    top: 500px;
+}
+
+.button-thingy{
+    background-color: rgb(72, 139, 72);
+    border: -10px;
+}
+
+.shop-text{
+    font-size: medium;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image-chairs{
+    width: 105%;
+    height: 70vh;
+    margin-top: -65px;
+    margin-left: -120px;
+    margin-right: -120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.jumbo-text{
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
