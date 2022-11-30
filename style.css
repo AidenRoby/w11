@@ -26,6 +26,8 @@
 .card-images{
     height: 250px;
     object-fit: cover;
+    width: 350px;
+    height: 500px;
 }
 
 .jumbo-container{
@@ -68,4 +70,23 @@
     text-align: left;
     color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.get-started-button{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    
+}
+
+.button-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
 }
