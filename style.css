@@ -1,3 +1,7 @@
+/* * {
+    outline: 2px solid red;
+} */
+
 .navbar-center{
     position: relative;
     padding: 5px;
@@ -18,27 +22,23 @@
 .jumbo{
     color: white;
     text-align: center;
-    position: relative;
-    top: 0px;
-    bottom: 10px;
-}
-
-.card-images{
-    height: 250px;
-    object-fit: cover;
-    width: 350px;
-    height: 500px;
+    padding: 0;
+    background-color: transparent;
+    width: 80%;
 }
 
 .jumbo-container{
     width: 100%;
     height: 80vh;
+    background-image: url(Opendesk-Top-Bgimg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.card-deck{
-    width: 100%;
-    position: realtive;
-    top: 500px;
+.c1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .button-thingy{
@@ -54,7 +54,7 @@
 
 .image-chairs{
     width: 105%;
-    height: 70vh;
+    height: 80vh;
     margin-top: -65px;
     margin-left: -120px;
     margin-right: -120px;
@@ -65,11 +65,21 @@
 }
 
 .jumbo-text{
-    position: absolute;
+    position: relative;
     top: 100px;
+    left: 50px;
     text-align: left;
     color: rgb(255, 255, 255);
     padding: 10px;
+    font-size: 200px;
+}
+
+.hello-txt-hdr {
+    width: 80%;
+}
+
+.h1-p-txt {
+    width: 80%;
 }
 
 .card-title, .card-text{
@@ -77,10 +87,10 @@
 }
 
 .get-started-button{
-    padding: 10px;
     text-align: center;
     background-color: green;
-    
+    position: relative;
+    top: -100px;
 }
 
 .button-1 {
@@ -88,5 +98,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 50px 0px;
+}
+
+.card-deck{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.video-container{
+    text-align: center;
+    position: relative;
+    top: -100px;
+    
 }
