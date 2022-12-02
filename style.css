@@ -27,13 +27,18 @@
     width: 80%;
 }
 
-.jumbo-container{
+.jumbo-container, .jumbo-container-3{
     width: 100%;
     height: 80vh;
     background-image: url(Opendesk-Top-Bgimg.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.jumbo-container-3{
+    position: relative;
+    top: -100px;
 }
 
 .c1 {
@@ -44,6 +49,9 @@
 .button-thingy{
     background-color: rgb(72, 139, 72);
     border: -10px;
+    position: relative;
+    top: -100px;
+    left: 450px;
 }
 
 .shop-text{
@@ -72,6 +80,7 @@
     color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 200px;
+    font-weight: 400;
 }
 
 .hello-txt-hdr {
@@ -110,6 +119,10 @@
 .video-container{
     text-align: center;
     position: relative;
-    top: -100px;
-    
+    top: -50px;
+}
+
+.jumbo-hdr-para-txt{
+    position: relative;
+    left: 450px;
 }
